@@ -1,0 +1,49 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Virtual Environment ===
+venv/
+ENV/
+env/
+.venv/
+venv/
+
+
+# === Environment & Config ===
+*.env
+.env.*
+*.ini
+*.cfg
+*.toml
+*.yaml
+*.yml
+
+# === Logs ===
+*.log
+logs/
+*.out
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# === OS Generated ===
+.DS_Store
+Thumbs.db
+
+# === Database / Cache (opsional) ===
+*.sqlite3
+db.sqlite3
+*.db
+*.cache
