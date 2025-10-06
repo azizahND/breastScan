@@ -1,0 +1,35 @@
+{
+  "hasil": {
+    "tanggal": "2025-10-06",
+    "hasil_deteksi": "abnormal",
+    "hasil_scan_url": "/static/uploads/scan_abnormal_1006.png",
+    "suhu": 36.8
+  },
+  "riwayat": [
+    {
+      "id_pemeriksaan": 5,
+      "tanggal": "2025-10-06",
+      "hasil_deteksi": "abnormal"
+    },
+    {
+      "id_pemeriksaan": 4,
+      "tanggal": "2025-09-28",
+      "hasil_deteksi": "normal"
+    },
+    {
+      "id_pemeriksaan": 3,
+      "tanggal": "2025-09-20",
+      "hasil_deteksi": "normal"
+    },
+    {
+      "id_pemeriksaan": 2,
+      "tanggal": "2025-09-13",
+      "hasil_deteksi": "abnormal"
+    },
+    {
+      "id_pemeriksaan": 1,
+      "tanggal": "2025-09-05",
+      "hasil_deteksi": "normal"
+    }
+  ]
+}

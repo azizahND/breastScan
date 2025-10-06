@@ -17,11 +17,11 @@ const InputField: React.FC<InputFieldProps> = ({ label, type = "text", placehold
       <label className="block text-white text-sm font-medium mb-2">{label}</label>
       <input
         type={type}
-        name={name}                 // <-- tambahkan ini
+        name={name}                
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className="w-full px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="w-full px-3 py-2 rounded-md border-2 border-white focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
     </div>
   );

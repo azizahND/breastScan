@@ -1,10 +1,12 @@
-from . import db
+from models import db
 
 class Pasien(db.Model):
     __tablename__ = 'pasien'
-    id = db.Column(db.Integer, primary_key=True)
-    nama = db.Column(db.String(100), nullable=False)
-    umur = db.Column(db.Integer, nullable=False)
-    tinggi = db.Column(db.Float, nullable=False)
-    riwayat = db.Column(db.Text)
+
+    id_pasien = db.Column(db.Integer, primary_key=True, autoincrement=False)  # manual input
+    jenis_kelamin = db.Column(db.String(10), nullable=False)
+
     pemeriksaans = db.relationship('Pemeriksaan', backref='pasien', lazy=True)
+
+    def __repr__(self):
+        return f"<Pasien {self.id_pasien}>"
